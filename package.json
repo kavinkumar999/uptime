@@ -1,24 +1,23 @@
 {
-  "name": "movie-ticket-booking-alert",
+  "name": "testdir",
   "version": "1.0.0",
-  "type": "module",
-  "description": "",
-  "main": ".dist/index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "npx tsc -b",
     "start": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "dotenv": "^16.4.5",
-    "node-fetch": "^3.3.2"
-  },
+  "description": "",
   "devDependencies": {
-    "@types/express": "^4.17.21",
-    "@types/node": "^20.11.24",
+    "@types/node": "^22.5.2",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "install": "^0.13.0",
+    "node-fetch": "^3.3.2"
   }
 }
