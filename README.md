@@ -1,6 +1,6 @@
-# API Ping
+# Uptime
 
-**API Ping** is a Node.js application that monitors an API endpoint and sends a notification to a Telegram bot when the API responds with a 200 OK status. This tool is ideal for tracking movie ticket availability or similar use cases where timely updates are crucial.
+**Uptime** is a Node.js application that monitors an API endpoint and sends a notification to a Telegram bot when the API responds with a 200 OK status. This tool is ideal for tracking movie ticket availability or similar use cases where timely updates are crucial.
 
 ## Features
 
